@@ -13,7 +13,8 @@ students = [
     {'first_name': 'Петя'},
 ]
 # ???
-
+for student in students:
+    print(student['first_name'], ':', students.count(student))
 
 # Задание 2
 # Дан список учеников, нужно вывести самое часто повторящееся имя
@@ -27,6 +28,9 @@ students = [
     {'first_name': 'Оля'},
 ]
 # ???
+for student in students:
+    count_of_students = (students.count(student))
+    pass     
 
 
 # Задание 3
